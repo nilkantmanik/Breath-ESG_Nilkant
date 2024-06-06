@@ -31,7 +31,7 @@
     margin: 5px 3px;
     border-radius: 3px;
     width: 7rem;
-    height: 14vh;
+    height: 9vh;
     border: 1px solid #e0e0e0;
     font-size: 7px;
 
@@ -54,16 +54,17 @@
 
   .searchbox{
 
-    width: 12rem;
+    width: 16rem;
     height: 2rem;
     border: 2px solid #e0e0e0;
     display: flex;
+    margin: 1px 4px;
 
     .svg-span{
       margin: 2px 5px;
     }
     .span-text{
-      font-size: 11px;
+      font-size: 12px;
       padding: 8px 2px;
     }
   }
