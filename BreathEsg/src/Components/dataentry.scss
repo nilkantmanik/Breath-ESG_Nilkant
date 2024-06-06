@@ -1,0 +1,70 @@
+/* In your CSS file (e.g., StatusLabel.css) */
+
+.label-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .circle-medium {
+    background-color: #F09948; 
+  }
+  
+  .circle-low {
+    background-color: #2E9844; 
+  }
+  
+  .circle-high {
+    background-color: #ED6262; 
+  }
+  
+  .top-btn{
+    display: inline-block;
+    margin: 5px 3px;
+    border-radius: 3px;
+    width: 7rem;
+    height: 14vh;
+    border: 1px solid #e0e0e0;
+    font-size: 7px;
+
+    .btn-text{
+      margin: 1px 7px;
+    }
+
+    .numval{
+      font-size: 17px;
+      margin: 1px 7px;
+    }
+
+   
+    .svg-span{
+      position: relative;
+    top: 17px;
+    right: -4px;
+    }
+  }
+
+  .searchbox{
+
+    width: 12rem;
+    height: 2rem;
+    border: 2px solid #e0e0e0;
+    display: flex;
+
+    .svg-span{
+      margin: 2px 5px;
+    }
+    .span-text{
+      font-size: 11px;
+      padding: 8px 2px;
+    }
+  }
+

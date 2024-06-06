@@ -1,0 +1,82 @@
+$sidebar-width: 250px;
+$sidebar-bg-color: #1c1c1c;
+$sidebar-text-color: white;
+$sidebar-hover-bg-color: #333;
+$sidebar-border-color: #333;
+
+.sidebar {
+  height: 100vh;
+  width: $sidebar-width;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $sidebar-bg-color;
+  color: $sidebar-text-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logo {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    // border-bottom: 1px solid $sidebar-border-color;
+
+    h1 {
+      font-size: 24px;
+      color: $sidebar-text-color;
+    }
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .blogo {
+    height: 3rem;
+    padding-right: 8px;
+  }
+  
+  .esgText {
+    height: 2rem;
+    mix-blend-mode: color-dodge;
+    position: relative;
+    left: -33px;
+    width: 14rem;
+  }
+
+  .sidebar-menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+
+    li {
+      width: 80%;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: $sidebar-hover-bg-color;
+      }
+
+      span {
+        margin-left: 10px;
+      }
+    }
+    .DataManager{
+      color: #2E9844;
+    }
+
+    .logout {
+    //   border-top: 1px solid $sidebar-border-color;
+      margin-top: auto;
+      color: #ED6262;
+    }
+  }
+}
